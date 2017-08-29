@@ -1,0 +1,179 @@
+2017-06-18 13:37:24,133 INFO  crawl.Injector - Injector: starting at 2017-06-18 13:37:24
+2017-06-18 13:37:24,134 INFO  crawl.Injector - Injector: crawlDb: /home/robot/Documents/nutch/Db
+2017-06-18 13:37:24,134 INFO  crawl.Injector - Injector: urlDir: /home/robot/Documents/nutch/urls
+2017-06-18 13:37:24,134 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2017-06-18 13:37:24,506 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 13:37:25,833 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 13:37:26,600 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1439162330/.staging/job_local1439162330_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:37:26,605 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1439162330/.staging/job_local1439162330_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:37:26,761 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1439162330_0001/job_local1439162330_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:37:26,766 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1439162330_0001/job_local1439162330_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:37:28,152 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2017-06-18 13:37:28,880 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 0
+2017-06-18 13:37:28,881 INFO  crawl.Injector - Injector: Total number of urls after normalization: 1
+2017-06-18 13:37:28,881 INFO  crawl.Injector - Injector: Merging injected urls into crawl db.
+2017-06-18 13:37:28,947 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 13:37:29,064 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1586776899/.staging/job_local1586776899_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:37:29,066 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1586776899/.staging/job_local1586776899_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:37:29,148 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1586776899_0002/job_local1586776899_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:37:29,151 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1586776899_0002/job_local1586776899_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:37:29,506 INFO  crawl.Injector - Injector: overwrite: false
+2017-06-18 13:37:29,506 INFO  crawl.Injector - Injector: update: false
+2017-06-18 13:37:30,169 INFO  crawl.Injector - Injector: URLs merged: 0
+2017-06-18 13:37:30,193 INFO  crawl.Injector - Injector: Total new urls injected: 1
+2017-06-18 13:37:30,239 INFO  crawl.Injector - Injector: finished at 2017-06-18 13:37:30, elapsed: 00:00:06
+2017-06-18 13:47:37,967 INFO  crawl.Injector - Injector: starting at 2017-06-18 13:47:37
+2017-06-18 13:47:38,000 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2017-06-18 13:47:38,000 INFO  crawl.Injector - Injector: urlDir: /home/robot/Documents/nutch/urls
+2017-06-18 13:47:38,000 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2017-06-18 13:47:38,393 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 13:47:39,326 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 13:47:39,757 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1627741662/.staging/job_local1627741662_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:47:39,762 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1627741662/.staging/job_local1627741662_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:47:39,944 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1627741662_0001/job_local1627741662_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:47:39,950 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1627741662_0001/job_local1627741662_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:47:41,543 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2017-06-18 13:47:41,831 INFO  crawl.Injector - Injector: overwrite: false
+2017-06-18 13:47:41,832 INFO  crawl.Injector - Injector: update: false
+2017-06-18 13:47:42,057 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 0
+2017-06-18 13:47:42,057 INFO  crawl.Injector - Injector: Total number of urls after normalization: 1
+2017-06-18 13:47:42,061 INFO  crawl.Injector - Injector: Total new urls injected: 1
+2017-06-18 13:47:42,063 INFO  crawl.Injector - Injector: finished at 2017-06-18 13:47:42, elapsed: 00:00:04
+2017-06-18 13:48:21,913 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 13:48:22,531 INFO  crawl.Generator - Generator: starting at 2017-06-18 13:48:22
+2017-06-18 13:48:22,531 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2017-06-18 13:48:22,532 INFO  crawl.Generator - Generator: filtering: true
+2017-06-18 13:48:22,532 INFO  crawl.Generator - Generator: normalizing: true
+2017-06-18 13:48:22,535 INFO  crawl.Generator - Generator: running in local mode, generating exactly one partition.
+2017-06-18 13:48:23,211 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 13:48:23,739 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1619502514/.staging/job_local1619502514_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:48:23,747 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1619502514/.staging/job_local1619502514_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:48:24,023 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1619502514_0001/job_local1619502514_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:48:24,028 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1619502514_0001/job_local1619502514_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:48:24,900 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2017-06-18 13:48:24,903 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2017-06-18 13:48:24,903 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2017-06-18 13:48:25,416 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2017-06-18 13:48:25,417 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2017-06-18 13:48:25,417 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2017-06-18 13:48:25,431 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2017-06-18 13:48:26,108 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2017-06-18 13:48:27,109 INFO  crawl.Generator - Generator: segment: crawl/segments/20170618134827
+2017-06-18 13:48:27,142 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 13:48:27,248 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1862477731/.staging/job_local1862477731_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:48:27,251 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1862477731/.staging/job_local1862477731_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:48:27,371 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1862477731_0002/job_local1862477731_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:48:27,375 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1862477731_0002/job_local1862477731_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:48:28,386 INFO  crawl.Generator - Generator: finished at 2017-06-18 13:48:28, elapsed: 00:00:05
+2017-06-18 13:57:21,369 INFO  fetcher.Fetcher - Fetcher: starting at 2017-06-18 13:57:21
+2017-06-18 13:57:21,370 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20170618134827
+2017-06-18 13:57:21,928 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 13:57:22,476 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 13:57:22,706 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root2044881812/.staging/job_local2044881812_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:57:22,709 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root2044881812/.staging/job_local2044881812_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:57:22,877 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local2044881812_0001/job_local2044881812_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 13:57:22,885 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local2044881812_0001/job_local2044881812_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 13:57:23,145 INFO  fetcher.FetchItemQueues - Using queue mode : byHost
+2017-06-18 13:57:23,145 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2017-06-18 13:57:23,145 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2017-06-18 13:57:23,168 INFO  fetcher.QueueFeeder - QueueFeeder finished: total 1 records + hit by time limit :0
+2017-06-18 13:57:23,402 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,403 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,407 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,407 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,408 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,408 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,408 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,409 INFO  fetcher.FetcherThread - fetching http://news.baidu.com/ (queue crawl delay=5000ms)
+2017-06-18 13:57:23,409 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,409 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,409 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,409 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,410 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2017-06-18 13:57:23,411 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,412 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,412 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2017-06-18 13:57:23,412 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2017-06-18 13:57:23,413 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,413 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2017-06-18 13:57:23,456 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-18 13:57:23,456 INFO  http.Http - http.proxy.host = null
+2017-06-18 13:57:23,457 INFO  http.Http - http.proxy.port = 8080
+2017-06-18 13:57:23,457 INFO  http.Http - http.proxy.exception.list = false
+2017-06-18 13:57:23,457 INFO  http.Http - http.timeout = 10000
+2017-06-18 13:57:23,457 INFO  http.Http - http.content.limit = 65536
+2017-06-18 13:57:23,457 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-18 13:57:23,457 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-18 13:57:23,457 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-18 13:57:23,726 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2017-06-18 13:57:23,726 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=0
+2017-06-18 13:57:24,413 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
+2017-06-18 13:57:24,415 INFO  fetcher.Fetcher - -activeThreads=0
+2017-06-18 13:57:24,937 INFO  fetcher.Fetcher - Fetcher: finished at 2017-06-18 13:57:24, elapsed: 00:00:03
+2017-06-18 14:04:02,878 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 14:04:03,096 INFO  parse.ParseSegment - ParseSegment: starting at 2017-06-18 14:04:03
+2017-06-18 14:04:03,097 INFO  parse.ParseSegment - ParseSegment: segment: crawl/segments/20170618134827
+2017-06-18 14:04:03,430 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 14:04:03,682 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1035541260/.staging/job_local1035541260_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:04:03,687 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1035541260/.staging/job_local1035541260_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:04:03,838 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1035541260_0001/job_local1035541260_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:04:03,843 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1035541260_0001/job_local1035541260_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:04:04,901 INFO  parse.ParseSegment - ParseSegment: finished at 2017-06-18 14:04:04, elapsed: 00:00:01
+2017-06-18 14:06:27,656 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: starting at 2017-06-18 14:06:27
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20170618134827]
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: false
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: false
+2017-06-18 14:06:28,011 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2017-06-18 14:06:28,012 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2017-06-18 14:06:28,327 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 14:06:28,597 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1552034872/.staging/job_local1552034872_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:06:28,601 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1552034872/.staging/job_local1552034872_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:06:28,730 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1552034872_0001/job_local1552034872_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:06:28,735 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1552034872_0001/job_local1552034872_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:06:30,002 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2017-06-18 14:06:30,004 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2017-06-18 14:06:30,004 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2017-06-18 14:06:30,782 INFO  crawl.CrawlDb - CrawlDb update: finished at 2017-06-18 14:06:30, elapsed: 00:00:02
+2017-06-18 14:09:34,130 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 14:09:34,527 INFO  crawl.Generator - Generator: starting at 2017-06-18 14:09:34
+2017-06-18 14:09:34,527 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2017-06-18 14:09:34,528 INFO  crawl.Generator - Generator: filtering: true
+2017-06-18 14:09:34,528 INFO  crawl.Generator - Generator: normalizing: true
+2017-06-18 14:09:34,528 INFO  crawl.Generator - Generator: topN: 1000
+2017-06-18 14:09:34,531 INFO  crawl.Generator - Generator: running in local mode, generating exactly one partition.
+2017-06-18 14:09:34,921 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 14:09:35,192 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1791851279/.staging/job_local1791851279_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:09:35,198 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1791851279/.staging/job_local1791851279_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:09:35,430 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1791851279_0001/job_local1791851279_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:09:35,435 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1791851279_0001/job_local1791851279_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:09:35,940 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2017-06-18 14:09:35,940 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2017-06-18 14:09:35,940 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2017-06-18 14:09:36,184 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2017-06-18 14:09:36,184 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2017-06-18 14:09:36,184 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2017-06-18 14:09:36,490 WARN  crawl.Generator - Generator: 0 records selected for fetching, exiting ...
+2017-06-18 14:15:35,583 INFO  crawl.CrawlDbReader - CrawlDb dump: starting
+2017-06-18 14:15:35,588 INFO  crawl.CrawlDbReader - CrawlDb db: crawl/crawldb
+2017-06-18 14:15:35,995 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-18 14:15:36,514 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-18 14:15:36,754 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1275667278/.staging/job_local1275667278_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:15:36,758 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root1275667278/.staging/job_local1275667278_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:15:36,906 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1275667278_0001/job_local1275667278_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-18 14:15:36,911 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local1275667278_0001/job_local1275667278_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-18 14:15:37,960 INFO  crawl.CrawlDbReader - CrawlDb dump: done

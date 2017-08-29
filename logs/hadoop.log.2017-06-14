@@ -1,0 +1,91 @@
+2017-06-14 20:49:15,887 INFO  crawl.Injector - Injector: starting at 2017-06-14 20:49:15
+2017-06-14 20:49:15,888 INFO  crawl.Injector - Injector: crawlDb: /home/robot/Documents/nutch/urls
+2017-06-14 20:49:15,888 INFO  crawl.Injector - Injector: urlDir: /home/robot/Documents/nutch/Db
+2017-06-14 20:49:15,898 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2017-06-14 20:49:16,078 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-14 20:49:16,948 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-14 20:49:16,997 ERROR crawl.Injector - Injector: org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/robot/Documents/nutch/Db
+	at org.apache.hadoop.mapred.FileInputFormat.singleThreadedListStatus(FileInputFormat.java:285)
+	at org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:228)
+	at org.apache.hadoop.mapred.FileInputFormat.getSplits(FileInputFormat.java:304)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeOldSplits(JobSubmitter.java:520)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeSplits(JobSubmitter.java:512)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:394)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1285)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1282)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1282)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:562)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:557)
+	at org.apache.hadoop.mapred.JobClient.submitJob(JobClient.java:548)
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:833)
+	at org.apache.nutch.crawl.Injector.inject(Injector.java:323)
+	at org.apache.nutch.crawl.Injector.run(Injector.java:379)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.crawl.Injector.main(Injector.java:369)
+
+2017-06-14 20:50:33,532 INFO  crawl.Injector - Injector: starting at 2017-06-14 20:50:33
+2017-06-14 20:50:33,533 INFO  crawl.Injector - Injector: crawlDb: /home/robot/Documents/nutch/urls
+2017-06-14 20:50:33,533 INFO  crawl.Injector - Injector: urlDir: /home/robot/Documents/nutch/Db
+2017-06-14 20:50:33,534 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2017-06-14 20:50:33,815 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-14 20:50:34,461 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-14 20:50:34,736 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root708968573/.staging/job_local708968573_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-14 20:50:34,740 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root708968573/.staging/job_local708968573_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-14 20:50:34,857 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local708968573_0001/job_local708968573_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-14 20:50:34,861 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local708968573_0001/job_local708968573_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-14 20:50:35,048 WARN  plugin.PluginRepository - Plugins: directory not found: /home/robot/Documents/nutch/trunk/build/plugins
+2017-06-14 20:50:35,049 WARN  plugin.PluginRepository - No plugins found on paths of property plugin.folders="/home/robot/Documents/nutch/trunk/build/plugins"
+2017-06-14 20:50:35,053 WARN  mapred.LocalJobRunner - job_local708968573_0001
+java.lang.Exception: java.lang.RuntimeException: Error in configuring object
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.RuntimeException: Error in configuring object
+	at org.apache.hadoop.util.ReflectionUtils.setJobConf(ReflectionUtils.java:109)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:75)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:133)
+	at org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:426)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:342)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.ReflectionUtils.setJobConf(ReflectionUtils.java:106)
+	... 10 more
+Caused by: java.lang.RuntimeException: Error in configuring object
+	at org.apache.hadoop.util.ReflectionUtils.setJobConf(ReflectionUtils.java:109)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:75)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:133)
+	at org.apache.hadoop.mapred.MapRunner.configure(MapRunner.java:38)
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.ReflectionUtils.setJobConf(ReflectionUtils.java:106)
+	... 18 more
+Caused by: java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:144)
+	at org.apache.nutch.crawl.Injector$InjectMapper.configure(Injector.java:83)
+	... 23 more
+2017-06-14 20:50:35,898 ERROR crawl.Injector - Injector: java.io.IOException: Job failed!
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:836)
+	at org.apache.nutch.crawl.Injector.inject(Injector.java:323)
+	at org.apache.nutch.crawl.Injector.run(Injector.java:379)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.crawl.Injector.main(Injector.java:369)
+

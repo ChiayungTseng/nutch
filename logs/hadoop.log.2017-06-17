@@ -1,0 +1,117 @@
+2017-06-17 13:17:43,692 INFO  crawl.Injector - Injector: starting at 2017-06-17 13:17:43
+2017-06-17 13:17:43,693 INFO  crawl.Injector - Injector: crawlDb: /home/robot/Documents/nutch/urls
+2017-06-17 13:17:43,693 INFO  crawl.Injector - Injector: urlDir: /home/robot/Documents/nutch/Db
+2017-06-17 13:17:43,693 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2017-06-17 13:17:43,945 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-06-17 13:17:44,696 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-17 13:17:45,118 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root171914412/.staging/job_local171914412_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-17 13:17:45,127 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root171914412/.staging/job_local171914412_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-17 13:17:45,295 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local171914412_0001/job_local171914412_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-17 13:17:45,310 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local171914412_0001/job_local171914412_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-17 13:17:45,845 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2017-06-17 13:17:46,372 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 0
+2017-06-17 13:17:46,373 INFO  crawl.Injector - Injector: Total number of urls after normalization: 1
+2017-06-17 13:17:46,373 INFO  crawl.Injector - Injector: Merging injected urls into crawl db.
+2017-06-17 13:17:46,410 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2017-06-17 13:17:46,507 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root2082456545/.staging/job_local2082456545_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-17 13:17:46,509 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/staging/root2082456545/.staging/job_local2082456545_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-17 13:17:46,584 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local2082456545_0002/job_local2082456545_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2017-06-17 13:17:46,587 WARN  conf.Configuration - file:/tmp/hadoop-root/mapred/local/localRunner/root/job_local2082456545_0002/job_local2082456545_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2017-06-17 13:17:46,951 INFO  crawl.Injector - Injector: overwrite: false
+2017-06-17 13:17:46,951 INFO  crawl.Injector - Injector: update: false
+2017-06-17 13:17:47,605 INFO  crawl.Injector - Injector: URLs merged: 1
+2017-06-17 13:17:47,631 INFO  crawl.Injector - Injector: Total new urls injected: 0
+2017-06-17 13:17:47,636 INFO  crawl.Injector - Injector: finished at 2017-06-17 13:17:47, elapsed: 00:00:03
+2017-06-17 13:46:46,575 ERROR parse.ParserChecker - Usage: ParserChecker [-dumpText] [-forceAs mimeType] [-md key=value] url
+2017-06-17 13:47:54,582 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-17 13:47:54,984 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-17 13:47:54,984 INFO  http.Http - http.proxy.host = null
+2017-06-17 13:47:54,986 INFO  http.Http - http.proxy.port = 8080
+2017-06-17 13:47:54,986 INFO  http.Http - http.proxy.exception.list = false
+2017-06-17 13:47:54,986 INFO  http.Http - http.timeout = 10000
+2017-06-17 13:47:54,986 INFO  http.Http - http.content.limit = 65536
+2017-06-17 13:47:54,986 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-17 13:47:54,986 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-17 13:47:54,986 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-17 13:47:56,907 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-17 13:47:56,928 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-17 13:47:56,928 INFO  parse.ParserChecker - contentType: text/html
+2017-06-17 13:47:56,928 INFO  parse.ParserChecker - signature: 4a30b1cb046a2a37a94c4e4655dbb304
+2017-06-17 13:47:56,929 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-17 13:47:56,929 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-17 19:10:57,835 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-17 19:14:10,909 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-17 19:14:10,911 INFO  http.Http - http.proxy.host = null
+2017-06-17 19:14:10,911 INFO  http.Http - http.proxy.port = 8080
+2017-06-17 19:14:10,911 INFO  http.Http - http.proxy.exception.list = false
+2017-06-17 19:14:10,911 INFO  http.Http - http.timeout = 10000
+2017-06-17 19:14:10,912 INFO  http.Http - http.content.limit = 65536
+2017-06-17 19:14:10,912 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-17 19:14:10,912 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-17 19:14:10,912 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-17 19:16:28,072 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-17 19:16:42,854 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-17 19:16:43,380 INFO  parse.ParserChecker - contentType: text/html
+2017-06-17 19:16:44,225 INFO  parse.ParserChecker - signature: 166a3bd97322a44943c4d2d721faa44e
+2017-06-17 19:16:54,128 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-17 19:16:54,904 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-17 19:17:30,854 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-17 19:17:31,339 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-17 19:17:31,340 INFO  http.Http - http.proxy.host = null
+2017-06-17 19:17:31,340 INFO  http.Http - http.proxy.port = 8080
+2017-06-17 19:17:31,340 INFO  http.Http - http.proxy.exception.list = false
+2017-06-17 19:17:31,340 INFO  http.Http - http.timeout = 10000
+2017-06-17 19:17:31,340 INFO  http.Http - http.content.limit = 65536
+2017-06-17 19:17:31,340 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-17 19:17:31,340 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-17 19:17:31,340 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-17 19:17:33,056 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-17 19:17:33,077 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-17 19:17:33,077 INFO  parse.ParserChecker - contentType: text/html
+2017-06-17 19:17:33,078 INFO  parse.ParserChecker - signature: 166a3bd97322a44943c4d2d721faa44e
+2017-06-17 19:17:33,078 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-17 19:17:33,079 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-17 19:17:54,439 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-17 19:18:00,190 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-17 19:18:00,192 INFO  http.Http - http.proxy.host = null
+2017-06-17 19:18:00,192 INFO  http.Http - http.proxy.port = 8080
+2017-06-17 19:18:00,192 INFO  http.Http - http.proxy.exception.list = false
+2017-06-17 19:18:00,192 INFO  http.Http - http.timeout = 10000
+2017-06-17 19:18:00,193 INFO  http.Http - http.content.limit = 65536
+2017-06-17 19:18:00,193 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-17 19:18:00,193 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-17 19:18:00,193 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-17 19:18:23,361 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-17 19:18:27,961 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-17 19:18:28,893 INFO  parse.ParserChecker - contentType: text/html
+2017-06-17 19:18:29,508 INFO  parse.ParserChecker - signature: 166a3bd97322a44943c4d2d721faa44e
+2017-06-17 19:18:59,056 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-17 19:19:01,198 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+

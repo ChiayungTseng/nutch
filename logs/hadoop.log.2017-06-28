@@ -1,0 +1,51 @@
+2017-06-28 19:05:44,929 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-28 19:08:07,573 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-28 19:08:07,574 INFO  http.Http - http.proxy.host = null
+2017-06-28 19:08:07,574 INFO  http.Http - http.proxy.port = 8080
+2017-06-28 19:08:07,574 INFO  http.Http - http.proxy.exception.list = false
+2017-06-28 19:08:07,575 INFO  http.Http - http.timeout = 10000
+2017-06-28 19:08:07,575 INFO  http.Http - http.content.limit = 65536
+2017-06-28 19:08:07,575 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-28 19:08:07,575 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-28 19:08:07,575 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-28 19:11:03,544 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-28 19:11:03,557 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-28 19:11:03,557 INFO  parse.ParserChecker - contentType: text/html
+2017-06-28 19:11:03,557 INFO  parse.ParserChecker - signature: 79ded2ec2dd5df6fba7b9ba684db4543
+2017-06-28 19:11:03,558 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-28 19:11:03,558 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-28 19:11:21,321 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-28 19:11:39,545 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-28 19:11:39,546 INFO  http.Http - http.proxy.host = null
+2017-06-28 19:11:39,546 INFO  http.Http - http.proxy.port = 8080
+2017-06-28 19:11:39,546 INFO  http.Http - http.proxy.exception.list = false
+2017-06-28 19:11:39,546 INFO  http.Http - http.timeout = 10000
+2017-06-28 19:11:39,546 INFO  http.Http - http.content.limit = 65536
+2017-06-28 19:11:39,546 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-28 19:11:39,546 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-28 19:11:39,546 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-28 19:24:07,190 ERROR http.Http - Failed to get protocol output
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at java.io.PushbackInputStream.read(PushbackInputStream.java:139)
+	at org.apache.nutch.protocol.http.HttpResponse.readLine(HttpResponse.java:525)
+	at org.apache.nutch.protocol.http.HttpResponse.parseStatusLine(HttpResponse.java:439)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:233)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:70)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:261)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:136)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)

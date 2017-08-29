@@ -1,0 +1,467 @@
+2017-06-19 11:24:51,646 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 11:27:02,180 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 11:27:02,181 INFO  http.Http - http.proxy.host = null
+2017-06-19 11:27:02,182 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 11:27:02,182 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 11:27:02,182 INFO  http.Http - http.timeout = 10000
+2017-06-19 11:27:02,182 INFO  http.Http - http.content.limit = 65536
+2017-06-19 11:27:02,182 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 11:27:02,182 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 11:27:02,183 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 11:46:43,573 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 11:46:54,764 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 11:46:57,475 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 11:46:58,189 INFO  parse.ParserChecker - signature: e9b82060fb5d590396c0fb0f48b84293
+2017-06-19 11:47:18,563 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 11:47:22,956 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:10:47,686 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:10:47,941 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:10:47,942 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:10:47,942 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:10:47,942 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:10:47,942 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:10:47,942 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:10:47,942 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:10:47,942 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:10:47,942 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:16:13,532 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@21be3395
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 16:16:13,573 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 16:16:16,866 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:16:18,005 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:16:18,006 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:16:18,006 INFO  parse.ParserChecker - signature: 8e2e510e98f51293be2a566b77680f17
+2017-06-19 16:16:18,006 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:16:18,006 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:16:50,126 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:16:50,517 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:16:50,518 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:16:50,518 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:16:50,518 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:16:50,518 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:16:50,518 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:16:50,518 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:16:50,518 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:16:50,518 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:16:55,391 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:16:55,405 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:16:55,405 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:16:55,405 INFO  parse.ParserChecker - signature: 606f57a66b136ac0029e3caa470f4254
+2017-06-19 16:16:55,406 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:16:55,406 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:17:17,350 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:17:17,611 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:17:17,611 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:17:17,611 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:17:17,611 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:17:17,612 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:17:17,612 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:17:17,612 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:17:17,612 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:17:17,612 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:17:23,457 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:17:23,472 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:17:23,472 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:17:23,472 INFO  parse.ParserChecker - signature: 606f57a66b136ac0029e3caa470f4254
+2017-06-19 16:17:23,475 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:17:23,475 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:17:31,923 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:17:32,422 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:17:32,423 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:17:32,423 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:17:32,423 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:17:32,423 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:17:32,423 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:17:32,423 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:17:32,423 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:17:32,423 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:18:29,267 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@21be3395
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 16:18:39,272 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 16:18:53,431 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:18:53,477 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:18:53,477 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:18:53,479 INFO  parse.ParserChecker - signature: 606f57a66b136ac0029e3caa470f4254
+2017-06-19 16:19:08,033 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:19:08,033 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:19:47,714 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:19:48,205 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:19:48,206 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:19:48,206 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:19:48,206 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:19:48,206 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:19:48,206 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:19:48,206 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:19:48,206 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:19:48,206 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:19:55,647 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:19:55,658 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:19:55,658 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:19:55,658 INFO  parse.ParserChecker - signature: 606f57a66b136ac0029e3caa470f4254
+2017-06-19 16:19:55,659 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:19:55,659 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:20:01,950 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:20:02,472 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:20:02,473 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:20:02,473 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:20:02,473 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:20:02,473 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:20:02,473 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:20:02,473 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:20:02,473 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:20:02,473 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:20:41,737 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@7d322cad
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 16:20:42,280 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 16:20:43,304 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:20:51,453 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:20:51,453 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:20:51,454 INFO  parse.ParserChecker - signature: 606f57a66b136ac0029e3caa470f4254
+2017-06-19 16:20:51,454 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:20:51,455 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 16:21:14,840 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 16:21:15,311 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 16:21:15,311 INFO  http.Http - http.proxy.host = null
+2017-06-19 16:21:15,311 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 16:21:15,311 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 16:21:15,311 INFO  http.Http - http.timeout = 10000
+2017-06-19 16:21:15,311 INFO  http.Http - http.content.limit = 65536
+2017-06-19 16:21:15,311 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 16:21:15,311 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 16:21:15,311 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 16:21:59,824 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@21be3395
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 16:21:59,838 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 16:22:00,562 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 16:22:03,232 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 16:22:03,233 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 16:22:03,233 INFO  parse.ParserChecker - signature: 606f57a66b136ac0029e3caa470f4254
+2017-06-19 16:22:03,233 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 16:22:03,233 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:23:51,673 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:23:52,230 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:23:52,231 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:23:52,231 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:23:52,231 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:23:52,231 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:23:52,231 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:23:52,231 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:23:52,231 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:23:52,232 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:25:01,264 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@21be3395
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:25:07,917 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:25:07,959 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:26:12,525 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:26:12,525 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:26:12,525 INFO  parse.ParserChecker - signature: 51280ba653fd4bcf0ec3fbfafa601af6
+2017-06-19 17:26:12,526 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:26:12,526 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:26:39,005 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:26:39,506 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:26:39,507 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:26:39,507 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:26:39,507 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:26:39,507 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:26:39,507 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:26:39,507 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:26:39,507 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:26:39,507 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:27:14,870 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@21be3395
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:27:16,191 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:27:18,849 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:27:20,250 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:27:20,251 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:27:20,280 INFO  parse.ParserChecker - signature: 51280ba653fd4bcf0ec3fbfafa601af6
+2017-06-19 17:27:20,281 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:27:20,281 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:27:55,181 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:27:55,687 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:27:55,687 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:27:55,688 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:27:55,688 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:27:55,688 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:27:55,688 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:27:55,688 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:27:55,688 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:27:55,688 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:28:29,685 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@21be3395
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:28:29,713 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:28:30,300 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:28:30,335 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:28:30,335 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:28:30,335 INFO  parse.ParserChecker - signature: 51280ba653fd4bcf0ec3fbfafa601af6
+2017-06-19 17:28:30,336 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:28:30,336 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:31:50,706 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:31:51,205 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:31:51,205 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:31:51,205 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:31:51,206 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:31:51,206 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:31:51,206 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:31:51,206 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:31:51,206 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:31:51,206 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:32:22,867 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@7d322cad
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:32:22,909 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:32:24,444 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:32:24,581 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:32:24,581 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:32:24,581 INFO  parse.ParserChecker - signature: 51280ba653fd4bcf0ec3fbfafa601af6
+2017-06-19 17:32:24,581 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:32:24,582 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:32:41,540 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:32:42,042 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:32:42,043 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:32:42,043 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:32:42,043 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:32:42,044 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:32:42,044 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:32:42,044 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:32:42,044 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:32:42,044 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:33:13,664 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@7d322cad
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:33:14,462 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:33:24,106 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:33:26,959 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:33:26,959 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:33:26,959 INFO  parse.ParserChecker - signature: 51280ba653fd4bcf0ec3fbfafa601af6
+2017-06-19 17:33:26,960 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:33:26,960 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:46:11,223 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:46:11,636 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:46:11,640 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:46:11,640 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:46:11,640 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:46:11,640 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:46:11,640 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:46:11,640 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:46:11,640 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:46:11,640 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:46:14,870 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:46:14,904 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:46:14,904 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:46:14,904 INFO  parse.ParserChecker - signature: a949bba9fa8e09168fae02c926b28977
+2017-06-19 17:46:14,905 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:46:14,905 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:47:07,314 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:47:07,873 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:47:07,873 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:47:07,873 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:47:07,873 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:47:07,873 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:47:07,873 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:47:07,873 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:47:07,873 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:47:07,873 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:47:40,109 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@7d322cad
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:47:40,145 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:47:52,651 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:47:58,227 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:47:58,227 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:47:58,227 INFO  parse.ParserChecker - signature: fe36132ad06d45036018dc86570c3463
+2017-06-19 17:47:58,228 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:47:58,228 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
+2017-06-19 17:52:02,771 INFO  parse.ParserChecker - fetching: http://news.baidu.com/
+2017-06-19 17:52:03,228 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2017-06-19 17:52:03,229 INFO  http.Http - http.proxy.host = null
+2017-06-19 17:52:03,229 INFO  http.Http - http.proxy.port = 8080
+2017-06-19 17:52:03,229 INFO  http.Http - http.proxy.exception.list = false
+2017-06-19 17:52:03,229 INFO  http.Http - http.timeout = 10000
+2017-06-19 17:52:03,229 INFO  http.Http - http.content.limit = 65536
+2017-06-19 17:52:03,229 INFO  http.Http - http.agent = holo/Nutch-1.12-SNAPSHOT
+2017-06-19 17:52:03,229 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2017-06-19 17:52:03,229 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2017-06-19 17:52:37,926 WARN  parse.ParseUtil - Error parsing http://news.baidu.com/ with org.apache.nutch.parse.html.HtmlParser@7d322cad
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.apache.nutch.parse.ParseUtil.runParser(ParseUtil.java:171)
+	at org.apache.nutch.parse.ParseUtil.parse(ParseUtil.java:95)
+	at org.apache.nutch.parse.ParserChecker.run(ParserChecker.java:199)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.parse.ParserChecker.main(ParserChecker.java:265)
+2017-06-19 17:52:46,331 WARN  parse.ParseUtil - Unable to successfully parse content http://news.baidu.com/ of type text/html
+2017-06-19 17:52:58,794 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2017-06-19 17:53:17,127 INFO  parse.ParserChecker - parsing: http://news.baidu.com/
+2017-06-19 17:53:17,127 INFO  parse.ParserChecker - contentType: text/html
+2017-06-19 17:53:17,203 INFO  parse.ParserChecker - signature: fe36132ad06d45036018dc86570c3463
+2017-06-19 17:53:20,579 INFO  parse.ParserChecker - ---------
+Url
+---------------
+
+2017-06-19 17:53:20,579 INFO  parse.ParserChecker - 
+---------
+ParseData
+---------
+
